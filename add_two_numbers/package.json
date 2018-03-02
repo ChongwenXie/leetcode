@@ -1,0 +1,19 @@
+{
+  "name": "add_two_numbers",
+  "version": "1.0.0",
+  "description": "implement algorithm to add to numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChongwenXie/leetcode.git"
+  },
+  "author": "chongwen xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChongwenXie/leetcode/issues"
+  },
+  "homepage": "https://github.com/ChongwenXie/leetcode#readme"
+}
