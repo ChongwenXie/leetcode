@@ -61,6 +61,9 @@ var addTwoNumbers = function(l1, l2) {
         previousNode = tempNode;
         sum = (sum - sum % 10) / 10;      
     }
+    if (sum > 0) {
+        previousNode.next = new ListNode(sum);
+    }
     return l;
 };
 
@@ -80,7 +83,7 @@ var printNumber = function(l) {
     console.log(s);
 }
 
-var l1 = createNumber(342);
+var l1 = createNumber(742);
 var l2 = createNumber(465);
 var l = addTwoNumbers(l1, l2);
 printNumber(l);
