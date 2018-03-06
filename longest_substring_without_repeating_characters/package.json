@@ -1,0 +1,19 @@
+{
+  "name": "longest_substring_without_repeating_characters",
+  "version": "1.0.0",
+  "description": "longest_substring_without_repeating_characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChongwenXie/leetcode.git"
+  },
+  "author": "Chongwen Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChongwenXie/leetcode/issues"
+  },
+  "homepage": "https://github.com/ChongwenXie/leetcode#readme"
+}
