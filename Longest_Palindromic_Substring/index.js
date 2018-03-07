@@ -18,7 +18,7 @@ var longestPalindrome = function(s) {
 
     // from middle to begin
     for (var i = midIndex ; i >= 0; i--) {
-        if (2*i+1 <= longestCount) {
+        if (2*i+1 < longestCount) {
             break;
         }
         var localLongestCount = 1;
@@ -63,7 +63,7 @@ var longestPalindrome = function(s) {
 
     // from middle to end
     for (var i = 1 + midIndex ; i < s.length; i++) {
-        if (2*(s.length-i-1)+1 <= longestCount) {
+        if (2*(s.length-i-1)+1 < longestCount) {
             break;
         }
         var localLongestCount = 1;
