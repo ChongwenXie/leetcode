@@ -1,0 +1,22 @@
+{
+  "name": "zigzag_conversion",
+  "version": "1.0.0",
+  "description": "zigzag conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChongwenXie/leetcode.git"
+  },
+  "keywords": [
+    "zigzag"
+  ],
+  "author": "Chongwen Xie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChongwenXie/leetcode/issues"
+  },
+  "homepage": "https://github.com/ChongwenXie/leetcode#readme"
+}
